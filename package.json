@@ -1,0 +1,45 @@
+{
+  "name": "eslint-plugin-feature-sliced-project",
+  "version": "0.0.2",
+  "description": "Checking the Feature-Sliced ​​Design (FSD) architecture rules",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "fsd-checker"
+  ],
+  "author": "g-serg",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "npm-run-all \"lint:*\"",
+    "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
+    "lint:js": "eslint .",
+    "test": "mocha tests --recursive",
+    "update:eslint-docs": "eslint-doc-generator",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-doc-generator": "^1.7.1",
+    "eslint-plugin-eslint-plugin": "^6.0.0",
+    "eslint-plugin-n": "^17.0.0",
+    "husky": "^9.1.5",
+    "mocha": "^10.0.0",
+    "npm-run-all2": "^6.1.2"
+  },
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.57.0"
+  },
+  "license": "ISC"
+}
