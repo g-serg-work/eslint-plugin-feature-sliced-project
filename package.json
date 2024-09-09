@@ -2,6 +2,10 @@
   "name": "eslint-plugin-feature-sliced-project",
   "version": "0.0.3",
   "description": "Checking the Feature-Sliced ​​Design (FSD) architecture rules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g-serg-work/eslint-plugin-feature-sliced-project.git"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
