@@ -18,11 +18,11 @@ npm install eslint-plugin-feature-sliced-project --save-dev
 
 ## Usage
 
-Add `fsd-checker` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `feature-sliced-project` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "plugins": ["fsd-checker"]
+    "plugins": ["feature-sliced-project"]
 }
 ```
 
@@ -31,7 +31,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "fsd-checker/relative-import-check": "error"
+        "feature-sliced-project/relative-import-check": "error"
     }
 }
 ```

@@ -1,12 +1,12 @@
 {
   "name": "eslint-plugin-feature-sliced-project",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Checking the Feature-Sliced ​​Design (FSD) architecture rules",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin",
-    "fsd-checker"
+    "feature-sliced-project"
   ],
   "author": "g-serg",
   "main": "./lib/index.js",
