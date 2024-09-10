@@ -35,7 +35,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "feature-sliced-project/relative-import-check": "error"
+        "feature-sliced-project/relative-import-check": "error",
+        "feature-sliced-project/import-only-underlying": "error"
     }
 }
 ```
@@ -56,8 +57,9 @@ Then configure the rules you want to use under the rules section.
 
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                         | Description                                  | 🔧 |
-| :----------------------------------------------------------- | :------------------------------------------- | :- |
-| [relative-import-check](docs/rules/relative-import-check.md) | Within one slice, all paths must be relative | 🔧 |
+| Name                                                           | Description                                  | 🔧 |
+| :------------------------------------------------------------- | :------------------------------------------- | :- |
+| [import-only-underlying](docs/rules/import-only-underlying.md) | A layer can only import underlying layers    | 🔧 |
+| [relative-import-check](docs/rules/relative-import-check.md)   | Within one slice, all paths must be relative | 🔧 |
 
 <!-- end auto-generated rules list -->

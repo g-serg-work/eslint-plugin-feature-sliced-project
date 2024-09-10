@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-feature-sliced-project",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Checking the Feature-Sliced ​​Design (FSD) architecture rules",
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "micromatch": "^4.0.8",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {

@@ -11,6 +11,12 @@
 const rule = require('../../../lib/rules/relative-import-check'),
     RuleTester = require('eslint').RuleTester;
 
+const aliasOptions = [
+    {
+        alias: '@',
+    },
+];
+
 //------------------------------------------------------------------------------
 // Tests
 //------------------------------------------------------------------------------
@@ -32,11 +38,7 @@ ruleTester.run('relative-import-check', rule, {
             code: "import { addCommentFormActions, addCommentFormReducer } from '@/entities/Article/model/slices/addCommentFormSlice'",
             output: "import { addCommentFormActions, addCommentFormReducer } from './Article/model/slices/addCommentFormSlice'",
             errors: [{ messageId: 'needRelative', type: 'ImportDeclaration' }],
-            options: [
-                {
-                    alias: '@',
-                },
-            ],
+            options: aliasOptions,
         },
         {
             filename: 'C:\\Project\\src\\entities\\Article',
