@@ -1,5 +1,5 @@
 /**
- * @fileoverview relative
+ * @fileoverview relative-import-check
  * @author g-serg
  */
 'use strict';
