@@ -36,7 +36,8 @@ Then configure the rules you want to use under the rules section.
 {
     "rules": {
         "feature-sliced-project/relative-import-check": "error",
-        "feature-sliced-project/import-only-underlying": "error"
+        "feature-sliced-project/import-only-underlying": "error",
+        "feature-sliced-project/public-api-import": "error"
     }
 }
 ```
@@ -60,6 +61,7 @@ Then configure the rules you want to use under the rules section.
 | Name                                                           | Description                                  | 🔧 |
 | :------------------------------------------------------------- | :------------------------------------------- | :- |
 | [import-only-underlying](docs/rules/import-only-underlying.md) | A layer can only import underlying layers    | 🔧 |
+| [public-api-import](docs/rules/public-api-import.md)           | Public api import rules                      | 🔧 |
 | [relative-import-check](docs/rules/relative-import-check.md)   | Within one slice, all paths must be relative | 🔧 |
 
 <!-- end auto-generated rules list -->
