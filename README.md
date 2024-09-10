@@ -1,4 +1,8 @@
-# eslint-plugin-feature-sliced-project ![example workflow](https://github.com/g-serg-work/eslint-plugin-feature-sliced-project/actions/workflows/node.js.yml/badge.svg?event=push)
+# eslint-plugin-feature-sliced-project
+
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-feature-sliced-project.svg)](https://www.npmjs.com/package/eslint-plugin-feature-sliced-project)
+[![Downloads](https://img.shields.io/npm/dm/eslint-plugin-feature-sliced-project.svg)](https://www.npmjs.com/package/eslint-plugin-feature-sliced-project)
+[![Build Status](https://github.com/g-serg-work/eslint-plugin-feature-sliced-project/actions/workflows/node.js.yml/badge.svg)](https://github.com/g-serg-work/eslint-plugin-feature-sliced-project/actions)
 
 Checking the application for compliance with the rules of Feature-Sliced ​​Design (FSD) architecture
 
@@ -40,7 +44,9 @@ Then configure the rules you want to use under the rules section.
 
 <!-- begin auto-generated configs list -->
 
-TODO: Run eslint-doc-generator to generate the configs list (or delete this section if no configs are offered).
+|    | Name          |
+| :- | :------------ |
+| ✅  | `recommended` |
 
 <!-- end auto-generated configs list -->
 
