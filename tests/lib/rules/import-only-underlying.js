@@ -39,7 +39,7 @@ ruleTester.run('import-only-underlying', rule, {
         },
         {
             filename: 'C:\\Project\\src\\app\\providers',
-            code: "import { addCommentFormActions, addCommentFormReducer } from '@/widgets/Articl'",
+            code: "import { addCommentFormActions, addCommentFormReducer } from '@/widgets/Article'",
             errors: [],
             options: aliasOptions,
         },
@@ -77,19 +77,19 @@ ruleTester.run('import-only-underlying', rule, {
     invalid: [
         {
             filename: 'C:\\Project\\src\\entities\\providers',
-            code: "import { addCommentFormActions, addCommentFormReducer } from '@/features/Articl'",
+            code: "import { addCommentFormActions, addCommentFormReducer } from '@/features/Article'",
             errors: [{ messageId: 'onlyUnderlying', type: 'ImportDeclaration' }],
             options: aliasOptions,
         },
         {
             filename: 'C:\\Project\\src\\features\\providers',
-            code: "import { addCommentFormActions, addCommentFormReducer } from '@/widgets/Articl'",
+            code: "import { addCommentFormActions, addCommentFormReducer } from '@/widgets/Article'",
             errors: [{ messageId: 'onlyUnderlying', type: 'ImportDeclaration' }],
             options: aliasOptions,
         },
         {
             filename: 'C:\\Project\\src\\entities\\providers',
-            code: "import { addCommentFormActions, addCommentFormReducer } from '@/widgets/Articl'",
+            code: "import { addCommentFormActions, addCommentFormReducer } from '@/widgets/Article'",
             errors: [{ messageId: 'onlyUnderlying', type: 'ImportDeclaration' }],
             options: aliasOptions,
         },
