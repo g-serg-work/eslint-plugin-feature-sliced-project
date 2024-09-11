@@ -1,8 +1,6 @@
 # eslint-plugin-feature-sliced-project
 
-[![npm version](https://img.shields.io/npm/v/eslint-plugin-feature-sliced-project.svg)](https://www.npmjs.com/package/eslint-plugin-feature-sliced-project)
-[![Downloads](https://img.shields.io/npm/dm/eslint-plugin-feature-sliced-project.svg)](https://www.npmjs.com/package/eslint-plugin-feature-sliced-project)
-[![Build Status](https://github.com/g-serg-work/eslint-plugin-feature-sliced-project/actions/workflows/node.js.yml/badge.svg)](https://github.com/g-serg-work/eslint-plugin-feature-sliced-project/actions)
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][build-image]][build-url]
 
 Checking the application for compliance with the rules of Feature-Sliced ​​Design (FSD) architecture
 
@@ -65,3 +63,9 @@ Then configure the rules you want to use under the rules section.
 | [relative-import-check](docs/rules/relative-import-check.md)   | Within one slice, all paths must be relative | 🔧 |
 
 <!-- end auto-generated rules list -->
+
+[npm-image]: https://img.shields.io/npm/v/eslint-plugin-feature-sliced-project?color=0b7285&logoColor=0b7285
+[npm-url]: https://www.npmjs.com/package/eslint-plugin-feature-sliced-project
+[downloads-image]: https://img.shields.io/npm/dm/eslint-plugin-feature-sliced-project?color=364fc7&logoColor=364fc7
+[build-image]: https://github.com/g-serg-work/eslint-plugin-feature-sliced-project/actions/workflows/node.js.yml/badge.svg
+[build-url]: https://github.com/g-serg-work/eslint-plugin-feature-sliced-project/actions
